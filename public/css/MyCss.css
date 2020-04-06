@@ -1,0 +1,11 @@
+#login input,
+#login button,
+#register input,
+#register button {
+  margin-left: 50%;
+}
+
+#logout {
+  margin-left: 100%;
+}
+

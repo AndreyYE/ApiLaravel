@@ -1,0 +1,94 @@
+{
+  "data": [
+    {
+      "id": 1,
+      "name": "Hilton Waters DDS",
+      "text": "Est rerum dolor sit nisi beatae. Ea nobis eveniet doloremque rerum. Esse quasi et veniam error repellendus consequatur et. Sint iusto quas autem sit. Dolor blanditiis facere aut sequi.",
+      "user": {
+        "id": 1,
+        "name": "aaa"
+      },
+      "category": {
+        "id": 6,
+        "name": "Mia Weber"
+      },
+      "created_at": "2020-04-03T06:51:29.000000Z",
+      "updated_at": "2020-04-03T06:51:29.000000Z"
+    },
+    {
+      "id": 2,
+      "name": "Francis Quigley",
+      "text": "Dolores non commodi sit natus soluta non. Est possimus voluptas eligendi laborum temporibus est libero libero.",
+      "user": {
+        "id": 1,
+        "name": "aaa"
+      },
+      "category": {
+        "id": 4,
+        "name": "Dr."
+      },
+      "created_at": "2020-04-03T06:51:29.000000Z",
+      "updated_at": "2020-04-03T06:51:29.000000Z"
+    },
+    {
+      "id": 3,
+      "name": "Miss Elda Bernhard",
+      "text": "Odit officiis blanditiis non. Cupiditate ab rem nihil sit sit voluptates. Nesciunt dignissimos ipsam amet sunt ut.",
+      "user": {
+        "id": 2,
+        "name": "bbb"
+      },
+      "category": {
+        "id": 7,
+        "name": "Dashawn Friesen II"
+      },
+      "created_at": "2020-04-03T06:51:29.000000Z",
+      "updated_at": "2020-04-03T06:51:29.000000Z"
+    },
+    {
+      "id": 4,
+      "name": "Mr. Garrett Koelpin DVM",
+      "text": "Dolorum et voluptas et nam voluptas. Voluptatum laudantium et tenetur. Reprehenderit dolore repellendus vel est velit atque quia.",
+      "user": {
+        "id": 1,
+        "name": "aaa"
+      },
+      "category": {
+        "id": 3,
+        "name": "Miss"
+      },
+      "created_at": "2020-04-03T06:51:29.000000Z",
+      "updated_at": "2020-04-03T06:51:29.000000Z"
+    },
+    {
+      "id": 5,
+      "name": "Grant Ziemann",
+      "text": "Illo dolores quaerat hic nostrum qui asperiores. Aut iure rerum enim repellendus ipsum repellat libero. Nulla pariatur aut quae ea atque.",
+      "user": {
+        "id": 2,
+        "name": "bbb"
+      },
+      "category": {
+        "id": 4,
+        "name": "Dr."
+      },
+      "created_at": "2020-04-03T06:51:29.000000Z",
+      "updated_at": "2020-04-03T06:51:29.000000Z"
+    }
+  ],
+  "links": {
+    "first": "http:\/\/localhost:8000\/api\/auth\/posts?page=1",
+    "last": "http:\/\/localhost:8000\/api\/auth\/posts?page=2",
+    "prev": null,
+    "next": "http:\/\/localhost:8000\/api\/auth\/posts?page=2"
+  },
+  "meta": {
+    "current_page": 1,
+    "from": 1,
+    "last_page": 2,
+    "path": "http:\/\/localhost:8000\/api\/auth\/posts",
+    "per_page": 5,
+    "to": 5,
+    "total": 10
+  }
+}

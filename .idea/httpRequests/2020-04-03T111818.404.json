@@ -1,0 +1,3 @@
+{
+  "message": "SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '1-3' for key 'PRIMARY' (SQL: insert into `favorites` (`user_id`, `posts_id`) values (1, 3))"
+}

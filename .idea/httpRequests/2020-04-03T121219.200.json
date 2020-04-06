@@ -1,0 +1,99 @@
+{
+  "data": [
+    {
+      "id": 6,
+      "name": "Brisa Heathcote",
+      "text": "Aut et iusto fugiat et. Repellendus distinctio impedit officia. At provident consectetur illum. Id nihil autem sit placeat.",
+      "user": {
+        "id": 1,
+        "name": "aaa"
+      },
+      "category": {
+        "id": 2,
+        "name": "Miss"
+      },
+      "image": "http:\/\/www.schroeder.net\/neque-laboriosam-non-quasi-ducimus-id-et-perferendis.html",
+      "created_at": "2020-04-03T06:51:29.000000Z",
+      "updated_at": "2020-04-03T06:51:29.000000Z"
+    },
+    {
+      "id": 7,
+      "name": "Janice Marquardt",
+      "text": "Accusantium qui voluptatem ut ipsam et nisi aut. Est eum numquam veritatis aliquam corporis. Dolore eligendi iusto vero culpa consequuntur cumque aliquid.",
+      "user": {
+        "id": 2,
+        "name": "bbb"
+      },
+      "category": {
+        "id": 8,
+        "name": "Mariah Prohaska"
+      },
+      "image": "http:\/\/kemmer.net\/maxime-consectetur-culpa-impedit-vel-neque-aut-laboriosam-et",
+      "created_at": "2020-04-03T06:51:29.000000Z",
+      "updated_at": "2020-04-03T06:51:29.000000Z"
+    },
+    {
+      "id": 8,
+      "name": "Ms. Therese Aufderhar",
+      "text": "Est ut eos qui et odit natus ut. Inventore et facere ut quo omnis culpa aut aut. Est natus nam et qui. Delectus est voluptas vel ex et.",
+      "user": {
+        "id": 2,
+        "name": "bbb"
+      },
+      "category": {
+        "id": 1,
+        "name": "Prof."
+      },
+      "image": "http:\/\/klocko.com\/",
+      "created_at": "2020-04-03T06:51:29.000000Z",
+      "updated_at": "2020-04-03T06:51:29.000000Z"
+    },
+    {
+      "id": 9,
+      "name": "Mrs. Pinkie Williamson II",
+      "text": "Molestiae et numquam est cupiditate. Nemo aut soluta sequi corporis et sapiente. Officiis enim ad consectetur amet. Ut cumque expedita earum ipsam perspiciatis.",
+      "user": {
+        "id": 2,
+        "name": "bbb"
+      },
+      "category": {
+        "id": 2,
+        "name": "Miss"
+      },
+      "image": "https:\/\/jaskolski.com\/cumque-voluptatem-aliquid-alias-quis-minima.html",
+      "created_at": "2020-04-03T06:51:29.000000Z",
+      "updated_at": "2020-04-03T06:51:29.000000Z"
+    },
+    {
+      "id": 11,
+      "name": "aaaaa",
+      "text": "text",
+      "user": {
+        "id": 1,
+        "name": "aaa"
+      },
+      "category": {
+        "id": 1,
+        "name": "Prof."
+      },
+      "image": "images\/ivt3MSdts3bEUMnLNA867y40EH3A7RQIVpb2VVxi.jpeg",
+      "created_at": "2020-04-03T08:52:12.000000Z",
+      "updated_at": "2020-04-03T08:52:12.000000Z"
+    }
+  ],
+  "links": {
+    "first": "http:\/\/localhost:8000\/api\/auth\/posts?page=1",
+    "last": "http:\/\/localhost:8000\/api\/auth\/posts?page=2",
+    "prev": "http:\/\/localhost:8000\/api\/auth\/posts?page=1",
+    "next": null
+  },
+  "meta": {
+    "current_page": 2,
+    "from": 6,
+    "last_page": 2,
+    "path": "http:\/\/localhost:8000\/api\/auth\/posts",
+    "per_page": 5,
+    "to": 10,
+    "total": 10
+  }
+}

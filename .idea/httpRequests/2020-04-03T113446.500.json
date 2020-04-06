@@ -1,0 +1,293 @@
+{
+  "message": "Attribute [delte] does not exist.",
+  "exception": "InvalidArgumentException",
+  "file": "C:\\xampp\\htdocs\\laravel-khar\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\RouteRegistrar.php",
+  "line": 92,
+  "trace": [
+    {
+      "file": "C:\\xampp\\htdocs\\laravel-khar\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php",
+      "line": 1236,
+      "function": "attribute",
+      "class": "Illuminate\\Routing\\RouteRegistrar",
+      "type": "->"
+    },
+    {
+      "file": "C:\\xampp\\htdocs\\laravel-khar\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\Facades\\Facade.php",
+      "line": 261,
+      "function": "__call",
+      "class": "Illuminate\\Routing\\Router",
+      "type": "->"
+    },
+    {
+      "file": "C:\\xampp\\htdocs\\laravel-khar\\routes\\api.php",
+      "line": 34,
+      "function": "__callStatic",
+      "class": "Illuminate\\Support\\Facades\\Facade",
+      "type": "::"
+    },
+    {
+      "file": "C:\\xampp\\htdocs\\laravel-khar\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php",
+      "line": 414,
+      "function": "{closure}",
+      "class": "Illuminate\\Routing\\RouteFileRegistrar",
+      "type": "->"
+    },
+    {
+      "file": "C:\\xampp\\htdocs\\laravel-khar\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php",
+      "line": 374,
+      "function": "loadRoutes",
+      "class": "Illuminate\\Routing\\Router",
+      "type": "->"
+    },
+    {
+      "file": "C:\\xampp\\htdocs\\laravel-khar\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\Facades\\Facade.php",
+      "line": 261,
+      "function": "group",
+      "class": "Illuminate\\Routing\\Router",
+      "type": "->"
+    },
+    {
+      "file": "C:\\xampp\\htdocs\\laravel-khar\\routes\\api.php",
+      "line": 39,
+      "function": "__callStatic",
+      "class": "Illuminate\\Support\\Facades\\Facade",
+      "type": "::"
+    },
+    {
+      "file": "C:\\xampp\\htdocs\\laravel-khar\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php",
+      "line": 414,
+      "function": "{closure}",
+      "class": "Illuminate\\Routing\\RouteFileRegistrar",
+      "type": "->"
+    },
+    {
+      "file": "C:\\xampp\\htdocs\\laravel-khar\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php",
+      "line": 374,
+      "function": "loadRoutes",
+      "class": "Illuminate\\Routing\\Router",
+      "type": "->"
+    },
+    {
+      "file": "C:\\xampp\\htdocs\\laravel-khar\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\Facades\\Facade.php",
+      "line": 261,
+      "function": "group",
+      "class": "Illuminate\\Routing\\Router",
+      "type": "->"
+    },
+    {
+      "file": "C:\\xampp\\htdocs\\laravel-khar\\routes\\api.php",
+      "line": 40,
+      "function": "__callStatic",
+      "class": "Illuminate\\Support\\Facades\\Facade",
+      "type": "::"
+    },
+    {
+      "file": "C:\\xampp\\htdocs\\laravel-khar\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\RouteFileRegistrar.php",
+      "line": 35,
+      "function": "require"
+    },
+    {
+      "file": "C:\\xampp\\htdocs\\laravel-khar\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php",
+      "line": 416,
+      "function": "register",
+      "class": "Illuminate\\Routing\\RouteFileRegistrar",
+      "type": "->"
+    },
+    {
+      "file": "C:\\xampp\\htdocs\\laravel-khar\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php",
+      "line": 374,
+      "function": "loadRoutes",
+      "class": "Illuminate\\Routing\\Router",
+      "type": "->"
+    },
+    {
+      "file": "C:\\xampp\\htdocs\\laravel-khar\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\RouteRegistrar.php",
+      "line": 134,
+      "function": "group",
+      "class": "Illuminate\\Routing\\Router",
+      "type": "->"
+    },
+    {
+      "file": "C:\\xampp\\htdocs\\laravel-khar\\app\\Providers\\RouteServiceProvider.php",
+      "line": 78,
+      "function": "group",
+      "class": "Illuminate\\Routing\\RouteRegistrar",
+      "type": "->"
+    },
+    {
+      "file": "C:\\xampp\\htdocs\\laravel-khar\\app\\Providers\\RouteServiceProvider.php",
+      "line": 45,
+      "function": "mapApiRoutes",
+      "class": "App\\Providers\\RouteServiceProvider",
+      "type": "->"
+    },
+    {
+      "function": "map",
+      "class": "App\\Providers\\RouteServiceProvider",
+      "type": "->"
+    },
+    {
+      "file": "C:\\xampp\\htdocs\\laravel-khar\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php",
+      "line": 32,
+      "function": "call_user_func_array"
+    },
+    {
+      "file": "C:\\xampp\\htdocs\\laravel-khar\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php",
+      "line": 36,
+      "function": "Illuminate\\Container\\{closure}",
+      "class": "Illuminate\\Container\\BoundMethod",
+      "type": "::"
+    },
+    {
+      "file": "C:\\xampp\\htdocs\\laravel-khar\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php",
+      "line": 90,
+      "function": "unwrapIfClosure",
+      "class": "Illuminate\\Container\\Util",
+      "type": "::"
+    },
+    {
+      "file": "C:\\xampp\\htdocs\\laravel-khar\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php",
+      "line": 34,
+      "function": "callBoundMethod",
+      "class": "Illuminate\\Container\\BoundMethod",
+      "type": "::"
+    },
+    {
+      "file": "C:\\xampp\\htdocs\\laravel-khar\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php",
+      "line": 592,
+      "function": "call",
+      "class": "Illuminate\\Container\\BoundMethod",
+      "type": "::"
+    },
+    {
+      "file": "C:\\xampp\\htdocs\\laravel-khar\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider.php",
+      "line": 87,
+      "function": "call",
+      "class": "Illuminate\\Container\\Container",
+      "type": "->"
+    },
+    {
+      "file": "C:\\xampp\\htdocs\\laravel-khar\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider.php",
+      "line": 36,
+      "function": "loadRoutes",
+      "class": "Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider",
+      "type": "->"
+    },
+    {
+      "file": "C:\\xampp\\htdocs\\laravel-khar\\app\\Providers\\RouteServiceProvider.php",
+      "line": 35,
+      "function": "boot",
+      "class": "Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider",
+      "type": "->"
+    },
+    {
+      "function": "boot",
+      "class": "App\\Providers\\RouteServiceProvider",
+      "type": "->"
+    },
+    {
+      "file": "C:\\xampp\\htdocs\\laravel-khar\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php",
+      "line": 32,
+      "function": "call_user_func_array"
+    },
+    {
+      "file": "C:\\xampp\\htdocs\\laravel-khar\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php",
+      "line": 36,
+      "function": "Illuminate\\Container\\{closure}",
+      "class": "Illuminate\\Container\\BoundMethod",
+      "type": "::"
+    },
+    {
+      "file": "C:\\xampp\\htdocs\\laravel-khar\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php",
+      "line": 90,
+      "function": "unwrapIfClosure",
+      "class": "Illuminate\\Container\\Util",
+      "type": "::"
+    },
+    {
+      "file": "C:\\xampp\\htdocs\\laravel-khar\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php",
+      "line": 34,
+      "function": "callBoundMethod",
+      "class": "Illuminate\\Container\\BoundMethod",
+      "type": "::"
+    },
+    {
+      "file": "C:\\xampp\\htdocs\\laravel-khar\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php",
+      "line": 592,
+      "function": "call",
+      "class": "Illuminate\\Container\\BoundMethod",
+      "type": "::"
+    },
+    {
+      "file": "C:\\xampp\\htdocs\\laravel-khar\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php",
+      "line": 865,
+      "function": "call",
+      "class": "Illuminate\\Container\\Container",
+      "type": "->"
+    },
+    {
+      "file": "C:\\xampp\\htdocs\\laravel-khar\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php",
+      "line": 848,
+      "function": "bootProvider",
+      "class": "Illuminate\\Foundation\\Application",
+      "type": "->"
+    },
+    {
+      "function": "Illuminate\\Foundation\\{closure}",
+      "class": "Illuminate\\Foundation\\Application",
+      "type": "->"
+    },
+    {
+      "file": "C:\\xampp\\htdocs\\laravel-khar\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php",
+      "line": 849,
+      "function": "array_walk"
+    },
+    {
+      "file": "C:\\xampp\\htdocs\\laravel-khar\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\BootProviders.php",
+      "line": 17,
+      "function": "boot",
+      "class": "Illuminate\\Foundation\\Application",
+      "type": "->"
+    },
+    {
+      "file": "C:\\xampp\\htdocs\\laravel-khar\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php",
+      "line": 228,
+      "function": "bootstrap",
+      "class": "Illuminate\\Foundation\\Bootstrap\\BootProviders",
+      "type": "->"
+    },
+    {
+      "file": "C:\\xampp\\htdocs\\laravel-khar\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php",
+      "line": 151,
+      "function": "bootstrapWith",
+      "class": "Illuminate\\Foundation\\Application",
+      "type": "->"
+    },
+    {
+      "file": "C:\\xampp\\htdocs\\laravel-khar\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php",
+      "line": 135,
+      "function": "bootstrap",
+      "class": "Illuminate\\Foundation\\Http\\Kernel",
+      "type": "->"
+    },
+    {
+      "file": "C:\\xampp\\htdocs\\laravel-khar\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php",
+      "line": 109,
+      "function": "sendRequestThroughRouter",
+      "class": "Illuminate\\Foundation\\Http\\Kernel",
+      "type": "->"
+    },
+    {
+      "file": "C:\\xampp\\htdocs\\laravel-khar\\public\\index.php",
+      "line": 55,
+      "function": "handle",
+      "class": "Illuminate\\Foundation\\Http\\Kernel",
+      "type": "->"
+    },
+    {
+      "file": "C:\\xampp\\htdocs\\laravel-khar\\server.php",
+      "line": 21,
+      "function": "require_once"
+    }
+  ]
+}

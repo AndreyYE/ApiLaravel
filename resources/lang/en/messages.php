@@ -1,0 +1,27 @@
+<?php
+return [
+    'noUser' => 'No user',
+    'updateFailed' => 'update failed',
+    'deleteFailed' => 'Error while deleting',
+    'orderFail' => 'You can chose only desc or asc',
+    'emailTaken' => 'email is already taken',
+    'register' => 'Successfully created user!',
+    'logOutError' => 'LogOut error',
+    'logInError' => 'LogIn error',
+    'registerError' => 'Register Error',
+    'ErrorAddFavorPost' => 'You can\'t add your post to favorites post',
+    'AddFavorPost' => 'You success add post to favor',
+    'NoPost' => 'There is no post',
+    'PostAlreadyAddToFavor' => 'Post already add to favorites',
+    'ErrorDeletePostFromFavor' => 'Error delete post from favor posts',
+    'PostIsNotYour' => 'Post is not your',
+    'SuccessDeletePostFromFavorites' => 'You success delete post from favorites',
+    'SuccessDeletePost' => 'You success delete post',
+    'SuccessCreatePost' => 'You success create post',
+    'ErrorDeleteCategory' => 'Error delete category',
+    'CategoryAlreadyExists' => 'Category already exists',
+    'ExistsNoCategories' => 'There are not any categories',
+    'ErrorCreateCategory' => 'Error create category',
+    'ErrorEditCategory' => 'Error edit category',
+
+];

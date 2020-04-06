@@ -1,0 +1,20 @@
+{
+  "data": [
+    {
+      "id": 3,
+      "name": "Miss Elda Bernhard",
+      "text": "Odit officiis blanditiis non. Cupiditate ab rem nihil sit sit voluptates. Nesciunt dignissimos ipsam amet sunt ut.",
+      "user": {
+        "id": 2,
+        "name": "bbb"
+      },
+      "category": {
+        "id": 7,
+        "name": "Dashawn Friesen II"
+      },
+      "image": "http:\/\/nicolas.biz\/",
+      "created_at": "2020-04-03T06:51:29.000000Z",
+      "updated_at": "2020-04-03T06:51:29.000000Z"
+    }
+  ]
+}
