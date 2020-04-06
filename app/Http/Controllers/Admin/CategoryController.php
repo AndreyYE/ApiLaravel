@@ -60,7 +60,9 @@ class CategoryController extends Controller
     public function update(EditCategory $request, $id)
     {
         try{
-            $category = Category::findOrFail($id);
+           $category = Category::findOrFail($id);
+           $category->name = $request->name;
+           $category->save();
             if(!$request->parent_id){
                $category->saveAsRoot();
                return redirect()->route('admin.categories.index');
