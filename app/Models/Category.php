@@ -11,6 +11,9 @@ class Category extends Model
     public $timestamps = false;
     protected $guarded = [];
 
+    /**
+     * @return \Illuminate\Database\Eloquent\Relations\HasMany
+     */
     public function posts()
     {
         return $this->hasMany(Post::class,'category_id','id');
