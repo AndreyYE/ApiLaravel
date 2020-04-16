@@ -15,19 +15,29 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::group([
-    'prefix' => 'auth',
     'namespace'=>'Api'
     ], function () {
-    //Вход по email/пароль
-    Route::post('login', 'AuthController@login');
-    //Регистрация по email/пароль/имя
-    Route::post('signup', 'AuthController@signup');
+
+    Route::group(['prefix' => 'auth'],function (){
+        //Вход по email/пароль
+        Route::post('login', 'AuthController@login');
+        //Регистрация по email/пароль/имя
+        Route::post('signup', 'AuthController@signup');
+
+
+        Route::group([
+            'middleware' => 'auth:api'
+        ],function (){
+            //Выход
+            Route::get('logout', 'AuthController@logout');
+        });
+
+    });
+
 
     Route::group([
         'middleware' => 'auth:api'
     ], function() {
-        //Выход
-        Route::get('logout', 'AuthController@logout');
         //Получение списка всех постов с пагинацией
         Route::get('posts','PostController@getAllPosts');
         //Получение списка всех постов по пользователю

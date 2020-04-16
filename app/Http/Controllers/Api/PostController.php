@@ -17,7 +17,7 @@ class PostController extends Controller
 {
     /**
      * @SWG\Get(
-     *     path="/auth/posts",
+     *     path="/posts",
      *     summary="Get list of blog posts",
      *     tags={"Posts"},
      *     @SWG\Parameter(
@@ -50,7 +50,7 @@ class PostController extends Controller
 
     /**
      * @SWG\Get(
-     *     path="/auth/user/{user}/posts",
+     *     path="/user/{user}/posts",
      *     summary="Get list of user's blog posts",
      *     tags={"Posts"},
      *     @SWG\Parameter(
@@ -84,7 +84,7 @@ class PostController extends Controller
 
     /**
      * @SWG\Get(
-     *     path="/auth/category/{category}/posts",
+     *     path="/category/{category}/posts",
      *     summary="Get list of blog posts in certainly category",
      *     tags={"Posts"},
      *     @SWG\Parameter(
@@ -119,7 +119,7 @@ class PostController extends Controller
 
     /**
      * @SWG\Get(
-     *     path="/auth/favorites/posts",
+     *     path="/favorites/posts",
      *     summary="Get list of blog posts in my favorites",
      *     tags={"Posts"},
      *     @SWG\Response(
@@ -146,7 +146,7 @@ class PostController extends Controller
     }
     /**
      * @SWG\Get(
-     *     path="/auth/post/{post}",
+     *     path="/post/{post}",
      *     summary="Get blog post by id",
      *     tags={"Posts"},
      *     description="Get blog post by id",
@@ -180,7 +180,7 @@ class PostController extends Controller
 
     /**
      * @SWG\Post(
-     *     path="/auth/create/post",
+     *     path="/create/post",
      *     summary="Create a new post",
      *     tags={"Posts"},
      *     @SWG\Parameter(name="image", in="formData", type="file" ,required=false),
@@ -216,7 +216,7 @@ class PostController extends Controller
     }
     /**
      * @SWG\Delete(
-     *     path="/auth/delete/post/{post}",
+     *     path="/delete/post/{post}",
      *     summary="Delete a post",
      *     tags={"Posts"},
      *     @SWG\Parameter(
@@ -258,7 +258,7 @@ class PostController extends Controller
     }
     /**
      * @SWG\Post(
-     *     path="/auth/add/favor/{post}",
+     *     path="/add/favor/{post}",
      *     summary="Add a post to favorites",
      *     tags={"Posts"},
      *     @SWG\Parameter(name="post", in="path", type="string",required=true, @SWG\Schema(
@@ -314,7 +314,7 @@ class PostController extends Controller
 
     /**
      * @SWG\Delete(
-     *     path="/auth/delete/favor/{post}",
+     *     path="/delete/favor/{post}",
      *     summary="Delete a post form favorites",
      *     tags={"Posts"},
      *     @SWG\Parameter(

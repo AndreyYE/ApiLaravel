@@ -124,7 +124,7 @@
                 ]
             }
         },
-        "/auth/posts": {
+        "/posts": {
             "get": {
                 "tags": [
                     "Posts"
@@ -160,7 +160,7 @@
                 ]
             }
         },
-        "/auth/user/{user}/posts": {
+        "/user/{user}/posts": {
             "get": {
                 "tags": [
                     "Posts"
@@ -196,7 +196,7 @@
                 ]
             }
         },
-        "/auth/category/{category}/posts": {
+        "/category/{category}/posts": {
             "get": {
                 "tags": [
                     "Posts"
@@ -232,7 +232,7 @@
                 ]
             }
         },
-        "/auth/favorites/posts": {
+        "/favorites/posts": {
             "get": {
                 "tags": [
                     "Posts"
@@ -259,7 +259,7 @@
                 ]
             }
         },
-        "/auth/post/{post}": {
+        "/post/{post}": {
             "get": {
                 "tags": [
                     "Posts"
@@ -296,7 +296,7 @@
                 ]
             }
         },
-        "/auth/create/post": {
+        "/create/post": {
             "post": {
                 "tags": [
                     "Posts"
@@ -343,7 +343,7 @@
                 ]
             }
         },
-        "/auth/delete/post/{post}": {
+        "/delete/post/{post}": {
             "delete": {
                 "tags": [
                     "Posts"
@@ -376,7 +376,7 @@
                 ]
             }
         },
-        "/auth/add/favor/{post}": {
+        "/add/favor/{post}": {
             "post": {
                 "tags": [
                     "Posts"
@@ -413,7 +413,7 @@
                 ]
             }
         },
-        "/auth/delete/favor/{post}": {
+        "/delete/favor/{post}": {
             "delete": {
                 "tags": [
                     "Posts"
